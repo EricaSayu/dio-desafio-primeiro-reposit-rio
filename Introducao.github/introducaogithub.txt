@@ -1,1 +1,18 @@
-Github/git
+Como utilizar o Git/Github?
+
+Utilizo o Readme.md (markdown), é um ótimo arquivo para descrever e organizar o conteúdo que será inserido no git.
+"leia-me".
+
+Para iniciar todo o processo, utilizamos a pasta da área de trabalho, clicando no botão direito do mouse; cria-se o GitBash: A partir deste comando, abrimos um diretório para enviar os seguintes passos:
+1° - Git Init : A partir deste comando, inicia-se um repositório vazio.
+2° - Git Add: É utilizado para adicionar o arquivo que o usuário quer enviar. Ex:   $ git add Readme.md
+3° - Git Status: Esse passo é importante, porém não é obrigatório. Utilizado para checar os status do arquivo. Ao clicar no "enter", especificará o que precisa ser comitado.
+4° - Git commit: Vamos comitar! Ex: $ git commit -m "Primeiro repositório". Entre as aspas, sempre escreva o título do seu comentário e clique em "enter" para concluí-la.
+5° - Git Main (nomenclatura): $ git branch -M main  (Automaticamente, do master torna-se main)
+6° - No site, crie o repositório e preencha com o título e descrição. Ex:  EricaSayu/ dio-desafio-primeiro-repositorio. Descrição: Desafio de Projeto sobre Git/Github. 
+Configure para Público e finalmente cria-se o repositório no site do Github. 
+7° -  Git Remote (para linkar o remoto com o local): Na página do seu repositório, clique em "code" e acesse o link, copie-o. 
+Ex: $ git remote add origin (colar o link do seu repositorio) e clique "Enter".
+8° - Git Push (para enviar o arquivo p/ o git): "Empurre", nesse passo enviaremos o arquivo a partir deste comando:
+$ git push -u origin main (e conclua com o "enter")
+9°  Atualize a página no github, o commit estará concluso para visualizá-lo.
